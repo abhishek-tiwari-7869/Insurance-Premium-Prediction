@@ -51,8 +51,7 @@ Model Performance
 
  Model explains around **71% variance**, which indicates good prediction capability.
 
----
-
+--
 
 ---
 
