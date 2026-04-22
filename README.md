@@ -34,3 +34,5 @@ Streamlit app allows real-time prediction.
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+Author
+Abhishek tiwari
