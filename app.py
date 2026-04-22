@@ -1,7 +1,4 @@
-st.set_page_config(page_title="Insurance App")
 
-st.title(" Insurance Premium Predictor")
-st.write("Abhishek tiwari ")
 import streamlit as st
 import pickle
 import numpy as np
@@ -39,14 +36,7 @@ if st.button("Predict Premium"):
 
     prediction = model.predict(features)
 
-    st.success(f"Estimated Premium: ₹{int(prediction[0])}")
-
-st.success(f"Estimated Premium: ₹{int(prediction[0])}")
-
-if risk_score >= 3:
-    st.warning(" High Risk")
-else:
-    st.info(" Low Risk")
+ 
 
 
 
