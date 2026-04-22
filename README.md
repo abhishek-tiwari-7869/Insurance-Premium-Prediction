@@ -1,38 +1,71 @@
- Insurance Premium Prediction
+<h1 align="center"> Insurance Premium Prediction</h1>
 
- Problem Statement
-Predict health insurance premium based on user health and personal details.
+<p align="center">
+Machine Learning Web App using Streamlit <br>
+Developed by <b>Abhishek Tiwari</b>
+</p>
+
+---
+
+ Project Overview
+This project predicts the **insurance premium cost** based on a person's health conditions and lifestyle factors using Machine Learning.
+
+It helps insurance companies to:
+- Assess customer risk accurately  
+- Set fair premium pricing  
+- Improve decision-making  
+
+---
 
  Objective
-Build a machine learning model to estimate insurance premium accurately.
+To build a machine learning model that predicts insurance premiums using health and medical data.
 
- Dataset Features
-- Age
-- Diabetes
-- Blood Pressure
-- Chronic Disease
-- Height & Weight
-- BMI
-- Number of Surgeries
+---
 
- Approach
-1. Data Cleaning
-2. Exploratory Data Analysis
-3. Feature Engineering (BMI, Risk Score)
-4. Model Training (Random Forest)
-5. Model Evaluation (R2, RMSE)
-6. Deployment using Streamlit
+ Tech Stack
+- Python 🐍  
+- Pandas & NumPy  
+- Scikit-learn  
+- Streamlit  
 
- Model Performance
-- R2 Score: 0.71
-- RMSE: 3494
+---
 
- Deployment
-Streamlit app allows real-time prediction.
+ Features Used
+- Age  
+- Diabetes  
+- Blood Pressure  
+- Transplant History  
+- Chronic Disease  
+- Height & Weight  
+- BMI (calculated)  
+- Allergies  
+- Cancer History  
+- Number of Surgeries  
+- Risk Score  
 
- How to Run
+---
+
+Model Performance
+- RMSE: **3494**  
+- R² Score: **0.71**  
+
+ Model explains around **71% variance**, which indicates good prediction capability.
+
+---
+
+
+---
+
+ How It Works
+1. User enters health details  
+2. BMI & Risk Score are calculated  
+3. Model predicts premium  
+4. Result is shown instantly  
+
+---
+
+ 💻 Run Locally
+
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-Author
-Abhishek tiwari
